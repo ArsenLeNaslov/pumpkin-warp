@@ -2920,7 +2920,7 @@ vec4 frag(vec3 pos, vec2 uv, vec4 color, sampler2D tex) {
     loadPedit("portalh", "sprites/portalh.pedit");
     loadSound("hit", "sounds/hit.mp3");
     loadSound("mystic", "sounds/mystic.mp3");
-    loadSound("Syndrome_by_z3er0", "sounds/Syndrome_by_z3er0.wav");
+    loadSound("Syndrome_by_z3er0", "sounds/Syndrome_by_z3er0.mp3");
     const music = play("Syndrome_by_z3er0", { loop: true, volume: 0.5 });
     return {};
   }
